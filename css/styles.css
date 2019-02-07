@@ -1,3 +1,6 @@
+body {
+    font-size: 15px;;
+}
 #navbar {
     position: fixed;
     height: 100%;
@@ -8,7 +11,7 @@ left: 0;
 overflow-x: hidden;
 padding-top: 20px;
  background-color: black;
-  font-size: 30px;
+  font-size: 25px;
     color: white;
 }
 
@@ -17,5 +20,17 @@ padding-top: 20px;
     padding: 6px 8px 6px 16px;
     text-decoration-line: none;
     text-decoration-line: under;
+    border-bottom-color: beige;
+    border-bottom: 10px;
    
+}
+.main-section {
+    padding-left: 1rem;
+    
+}
+#navigation {
+    margin-right: 0px;
+}
+header {
+    font-size: 30px;
 }

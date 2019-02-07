@@ -33,4 +33,9 @@ padding-top: 20px;
 }
 header {
     font-size: 30px;
+
+}
+article{
+    padding-left: 15px;
+    padding-right: 25px;
 }

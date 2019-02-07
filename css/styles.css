@@ -1,18 +1,21 @@
-.sidenav {
+#navbar {
     position: fixed;
     height: 100%;
-    width: 200px;
+    width: 300px;
     z-index: 1;
 top: 0;
 left: 0;
 overflow-x: hidden;
-padding-top: 50px;
+padding-top: 20px;
+ background-color: black;
+  font-size: 30px;
+    color: white;
 }
 
-.sidenav a{
-    font-size: 30px;
-    color: white;
+#navbar a {
     display: block;
     padding: 6px 8px 6px 16px;
-    background-color: black;
+    text-decoration-line: none;
+    text-decoration-line: under;
+   
 }

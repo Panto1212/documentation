@@ -1,6 +1,6 @@
 body {
-    font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 #navbar {
     position: fixed;
@@ -21,8 +21,12 @@ body {
     display: block;
     padding: 6px 8px 6px 16px;
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration-color: black;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 .main-section {
     padding-left: 1rem;
@@ -41,4 +45,5 @@ article{
 #main {
     padding-top: 30px;
     padding-left: 20px;
+    padding-bottom: 50px;
 }

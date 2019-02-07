@@ -1,41 +1,44 @@
 body {
-    font-size: 15px;;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
 }
 #navbar {
     position: fixed;
     height: 100%;
     width: 300px;
     z-index: 1;
-top: 0;
-left: 0;
-overflow-x: hidden;
-padding-top: 20px;
- background-color: black;
-  font-size: 25px;
-    color: white;
+    top: 0;
+    left: 0;    
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: rgb(241, 232, 213);
+    font-size: 25px;
+    color: black;
 }
 
 #navbar a {
+    padding-top: 10px;
     display: block;
     padding: 6px 8px 6px 16px;
-    text-decoration-line: none;
-    text-decoration-line: under;
-    border-bottom-color: beige;
-    border-bottom: 10px;
-   
+    text-align: left;
+    font-size: 20px;
+    text-decoration-color: black;
 }
 .main-section {
     padding-left: 1rem;
-    
+    padding-top: 20px;
 }
 #navigation {
-    margin-right: 0px;
+   text-align: center;
 }
 header {
     font-size: 30px;
-
 }
 article{
     padding-left: 15px;
     padding-right: 25px;
+}
+#main {
+    padding-top: 30px;
+    padding-left: 20px;
 }
